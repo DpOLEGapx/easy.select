@@ -1,0 +1,29 @@
+﻿/* sea.select
+// css version 1.0.0
+// © Oleg Morev, 2015    
+// https://github.com/DpOLEGapx/ 
+//
+// ===================================================================================================================*/
+.sea-select * {
+	box-sizing: border-box;
+}
+.sea-select {
+    position: relative;
+	box-sizing: border-box;
+	cursor: pointer; 
+}
+.sea-list {	
+	display: none;
+	width: 100%;
+	min-width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+    top: 100%;
+    left: 0;	
+	z-index: 1;
+}
+.sea-select select {
+    display: none;
+}
