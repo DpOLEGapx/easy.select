@@ -1,47 +1,27 @@
-﻿<!DOCTYPE html>
 <html>
-<head>
-	<title>sea.select</title>
-	<meta charset="UTF-8"/>
-	<link rel="stylesheet" href="css/sea.select.Default.css" media="all">
-	<link rel="stylesheet" href="css/sea.select.skinGrey.css" media="all">
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/sea-select.min.js"></script>
-	<style>
-		h1 {
-			margin: 0 0 20px 0;
-		}
-		main {
-			display: block;
-			width: 400px;
-			margin: 50px auto 0;			
-			padding: 50px;
-			border: 1px solid #ccc;
-			font-family: 'Segoe UI', Tahoma, Arial;
-			font-size: 14px;
-			border-radius: 5px;
-			box-shadow: 0 0 3px rgba(0,0,0,0.3);
-		}
-	</style>
-</head>
-<body>
+    <head>
+        <link rel="stylesheet" href="select.css">
+    </head>
+    <body>
 
-<main>
+        <div style="width: 300px; height: 300px; padding: 12px; border: 1px solid #222; position: absolute; top: calc(50% - 150px); left: calc(50% - 150px);">
 
-	<h1>sea-select v.1.0.0</h1>
-	<div class="sea-select">
-		<div class="sea-selected"></div>
-		<ul class="sea-list"></ul>	
-		<select>
-			<option>Red Hat</option>
-			<option>Ubuntu</option>
-			<option>Debian</option>
-			<option>OpenSuse</option>
-			<option>Fedora</option>
-		</select>
-	</div>
+            <select class="set__easySelect">
+                <option value="Berlin">City 1</option>
+                <option value="Paris">City 2</option>
+                <option value="London">City 3</option>
+            </select>
 
-</main>
+            <br><br><br><br><br><br><br><br><br><br>
 
-</body>
-</html>		
+            <select class="set__easySelect">
+                <option value="Germany">Country 1</option>
+                <option value="France">Country 2</option>
+                <option value="English">Country 3</option>
+            </select>
+
+        </div>
+
+        <script src="select.js"></script>
+    </body>
+</html>
