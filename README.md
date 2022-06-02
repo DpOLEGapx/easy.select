@@ -1,2 +1,2 @@
 # easy.select
-Select Styling
+Styling all selects on the page.
